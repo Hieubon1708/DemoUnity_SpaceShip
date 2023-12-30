@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0db2bf16c27902b46bf6227cddb67076
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - colorsWeapons: {instanceID: 0}
+  - gun: {instanceID: 0}
+  - weapon: {instanceID: 0}
+  - weaponParent: {instanceID: 0}
+  - onClickWeapons: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

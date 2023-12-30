@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb3142fc310089b41adf9545e31cd45b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - text: {instanceID: 0}
+  - energyGun: {instanceID: 0}
+  - enemy: {fileID: 8003623406375823909, guid: 117c5da20673d4b4886e38363a33d4df, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
