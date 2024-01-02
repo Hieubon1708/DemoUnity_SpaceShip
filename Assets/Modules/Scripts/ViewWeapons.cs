@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShowWeapons : MonoBehaviour
+public class ViewWeapons : MonoBehaviour
 {
     public List<Sprite> listWeapons;
     public List<Material> listColors;
@@ -78,7 +78,7 @@ public class ShowWeapons : MonoBehaviour
                 // Gắn tên của hình ảnh vào textChildOfWeapon
                 textChildOfWeapon.text = listWeapons[i].name;
 
-                newWeapon.AddComponent<OnClickWeapons>();
+                newWeapon.AddComponent<WeaponColorsHandler>();
             }
             isCreated = true;
         }

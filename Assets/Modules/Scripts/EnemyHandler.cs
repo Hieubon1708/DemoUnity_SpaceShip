@@ -102,20 +102,20 @@ public class EnemyHandler : MonoBehaviour
                 // trừ Enemy đi 1 đơn vị Enemy: 5/4
                 CommonHandler.amountEnemy--;
                 // chết rồi k cho bắn nữa 
-                Destroy(bullet);
+                bullet.SetActive(false);
 
                 // thêm vật lý để Enemy có thể rớt xuống dưới
                 gameObject.AddComponent<Rigidbody>();
 
-                // sau đó 4 giây sau mới bị destroy
-                Invoke("Destroy", 4f);
+                // sau đó 4 giây sau mới bị DeActive
+                Invoke("DeActive", 4f);
                 isDead = true;
             }
         }
     }
 
-    void Destroy()
+    void DeActive()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

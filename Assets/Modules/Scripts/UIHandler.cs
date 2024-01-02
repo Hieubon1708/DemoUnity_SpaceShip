@@ -27,7 +27,7 @@ public class UIHandler : MonoBehaviour
     private bool isOpenSound;
     private bool isShowWeapons;
 
-    public ShowWeapons showWeapons;
+    public ViewWeapons viewWeapons;
 
     void Start()
     {
@@ -113,8 +113,8 @@ public class UIHandler : MonoBehaviour
     public void ShowWeapons()
     {
         weaponsScrollView.gameObject.SetActive(true);
-        showWeapons.ListColors();
-        showWeapons.CreatWeapons();
+        viewWeapons.ListColors();
+        viewWeapons.CreatWeapons();
     }
 
     // hàm này để ẩn hiện options

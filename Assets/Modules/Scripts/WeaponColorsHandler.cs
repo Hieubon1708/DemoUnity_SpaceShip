@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class OnClickWeapons : MonoBehaviour
+public class WeaponColorsHandler : MonoBehaviour
 {
     private string text;
 

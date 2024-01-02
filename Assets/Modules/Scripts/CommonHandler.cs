@@ -109,8 +109,8 @@ public class CommonHandler : MonoBehaviour
             if (obj.name.Equals(currentGunName) && isSetUp == true)
             {
                 obj.SetActive(true);
-                ShowWeapons.gun = obj;
-                ShowWeapons.gun.GetComponent<Renderer>().material = currentMaterial;
+                ViewWeapons.gun = obj;
+                ViewWeapons.gun.GetComponent<Renderer>().material = currentMaterial;
             }
             else if (obj.name == startGunName && isSetUp == false)
             {

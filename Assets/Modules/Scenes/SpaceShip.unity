@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 122348435}
   - component: {fileID: 122348437}
   m_Layer: 0
-  m_Name: HandlerUI
+  m_Name: UIHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   colorsWeapons: {fileID: 1846406222}
   volume: {fileID: 710975739}
   weaponsScrollView: {fileID: 340206139}
-  showWeapons: {fileID: 122348437}
+  viewWeapons: {fileID: 122348437}
 --- !u!4 &122348436
 Transform:
   m_ObjectHideFlags: 0
@@ -1039,7 +1039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282869696}
   m_Layer: 5
-  m_Name: SubScrollView
+  m_Name: ButtonOfViewWeapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1161,7 +1161,7 @@ GameObject:
   - component: {fileID: 340206140}
   - component: {fileID: 340206139}
   m_Layer: 5
-  m_Name: Scroll View
+  m_Name: ViewWeapons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5901,7 +5901,7 @@ GameObject:
   - component: {fileID: 1765231054}
   - component: {fileID: 1765231057}
   m_Layer: 5
-  m_Name: Setting
+  m_Name: Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
